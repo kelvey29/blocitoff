@@ -171,12 +171,12 @@ DEPENDENCIES
   bootstrap-sass (~> 3.3, >= 3.3.6)
   byebug
   coffee-rails (~> 4.1.0)
-  devise (~> 3.5, >= 3.5.4)
-  figaro (~> 1.1, >= 1.1.1)
+  devise
+  figaro
   jbuilder (~> 2.0)
   jquery-rails
   pg (~> 0.18.4)
-  pundit (~> 1.1)
+  pundit
   rails (= 4.2.4)
   rails_12factor (~> 0.0.3)
   sass-rails (~> 5.0)

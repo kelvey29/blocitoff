@@ -21,9 +21,9 @@ end
 group :development do
   gem 'web-console', '~> 2.0'
   gem 'spring'
-  gem 'devise', '~> 3.5', '>= 3.5.4'
-  gem 'pundit', '~> 1.1'
-  gem 'figaro', '~> 1.1', '>= 1.1.1'
+  gem 'devise'
+  gem 'pundit'
+  gem 'figaro'
 end
 
 group :production do

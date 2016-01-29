@@ -9,6 +9,10 @@ gem 'jquery-rails'
 gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0', group: :doc
+gem 'devise'
+gem 'pundit'
+gem 'figaro'
+gem 'simple_form'
 
 
 # Use ActiveModel has_secure_password
@@ -22,13 +26,9 @@ end
 group :development do
   gem 'web-console', '~> 2.0'
   gem 'spring'
-  gem 'devise'
-  gem 'pundit'
-  gem 'figaro'
 end
 
 group :production do
   gem 'pg', '~> 0.18.4'
   gem 'rails_12factor', '~> 0.0.3'
-  gem 'devise'
 end

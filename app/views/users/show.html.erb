@@ -1,3 +1,9 @@
-<h1><%= @email %></h1>
-<h2><%= @sign_in %></h2>
+<div class="container">
+    <h1><%= @email %></h1>
+    <h2><%= @sign_in %></h2>
+    
+    <%= render partial: "items/form", locals: {user: current_user, item: Item.new} %>
+    
+    <%= render @items %>
+</div>
 

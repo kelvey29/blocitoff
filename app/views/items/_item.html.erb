@@ -1,1 +1,4 @@
-<p><%= item.name %></p>
+<p id='item'>
+    <%= item.name %>
+    <%= link_to "Remove", user_item_path(current_user, item), method: :delete, remote: true, class: 'glyphicon glyphicon-ok' %>
+</p>

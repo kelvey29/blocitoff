@@ -1,4 +1,4 @@
 <p id='item'>
-    <%= item.name %>
+    <%= item.name %> | <%= distance_of_time_in_words(item.created_at, item.created_at + 7.days) %>
     <%= link_to "Remove", user_item_path(current_user, item), method: :delete, remote: true, class: 'glyphicon glyphicon-ok' %>
 </p>
